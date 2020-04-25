@@ -6,7 +6,9 @@ app.get('', (req, res) => {
   res.send('Hello World')
 })
 app.get('/testpath', (req, res) => {
-  res.send('test Path')
+  res.send({
+    name:'tbnoung'
+  })
 })
 
 app.listen(port, () => {
