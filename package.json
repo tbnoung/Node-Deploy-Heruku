@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/tbnoung/Node-Deploy-Heruku/issues"
   },
-  "homepage": "https://github.com/tbnoung/Node-Deploy-Heruku#readme"
+  "homepage": "https://github.com/tbnoung/Node-Deploy-Heruku#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
